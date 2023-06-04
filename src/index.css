@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.cat-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.cat-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
